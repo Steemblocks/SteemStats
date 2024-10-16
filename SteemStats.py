@@ -885,6 +885,9 @@ async def fetch_crypto_data(session, crypto_id):
 async def on_message(message):
     if message.author == client.user:
         return
+    # Ignore messages containing @everyone or @here
+    if message.mention_everyone:
+        return
 
     # Check if the bot was mentioned (tag command)
     if client.user.mentioned_in(message):

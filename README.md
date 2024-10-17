@@ -15,6 +15,9 @@ Clone this repository to your local machine:
 git clone <repository-url>
 cd <repository-directory>
 ```
+## Config the Bot file
+To edit the bot file use ```nano```, go to the folder folder directory ```nano SteemStats.py``` then replace ```my bot token``` with your discord bot token and save.
+
 ## Building the Docker Image
 Build the Docker image using:
 ```

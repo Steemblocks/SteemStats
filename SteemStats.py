@@ -913,7 +913,7 @@ async def on_message(message):
             await message.channel.send(response)
         else:
             await message.channel.send(
-                "Please use a format like 'Steem', '10 steem eur', 'Steem USD', or '1.7 bitcoin'."
+                "Tag me and please use a format like 'Steem', '10 steem eur', 'Steem USD', or '33 bitcoin'.:wink:"
             )
             logging.info("Invalid input format received.")
 

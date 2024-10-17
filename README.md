@@ -33,4 +33,6 @@ docker logs <your_container>
 Contributions are what makes the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
 ## Contact
-Shahriar - https://x.com/Shahriar1933
+Shahriar (@dhaka.witness)
+https://steemit.com/@dhaka.witness
+https://x.com/Shahriar1933

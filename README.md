@@ -15,5 +15,22 @@ Clone this repository to your local machine:
 git clone <repository-url>
 cd <repository-directory>
 ```
+## Building the Docker Image
+Build the Docker image using:
+```
+docker build -t <your_container> .
+```
+## Running the Bot
+To run your Discord bot within the Docker container, use:
+```
+docker run -d --name <your_container> <your-bot-name>
+```
+## Check the logs
+```
+docker logs <your_container>
+```
+## Contributing
+Contributions are what makes the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-
+## Contact
+Shahriar - https://x.com/Shahriar1933
